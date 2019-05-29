@@ -6,7 +6,7 @@ Route::group(['middleware' => 'language'], function () {
             Route::get('{id}', 'Common\Uploads@get');
             Route::get('{id}/show', 'Common\Uploads@show');
             Route::get('{id}/download', 'Common\Uploads@download');
-        });
+        });hjkjk
 
         Route::group(['middleware' => 'permission:read-admin-panel'], function () {
             Route::group(['prefix' => 'wizard'], function () {
